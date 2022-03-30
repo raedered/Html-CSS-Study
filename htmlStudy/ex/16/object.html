@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let now = new Date(); // 현재날짜 내장객체
+        console.log(typeof now); 
+
+        let user = {    
+            username : "jaehyeon",
+            password : "1234",
+            name : "김재현",
+            email : "kjh991216@naver.com",
+            arr : new Array(10),
+            click : function () {
+                alert('클릭하였습니다.');
+            }
+        }
+
+        user.arr.push(55);
+        console.log(user.arr);
+
+        console.log(user.username);
+        user.click();
+
+
+    </script>
+</body>
+</html>
