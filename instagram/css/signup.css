@@ -1,4 +1,3 @@
-
 .content-box {
     display: flex;
     justify-content: center;
@@ -6,7 +5,6 @@
 
     width: 100%;
     height: 835px;
-
 }
 
 .item-box {
@@ -25,22 +23,23 @@
     border: 1px solid #dbdbdb;
     padding: 10px 0px;
 
-    width:350px;
+    width: 350px;
+
     background-color: white;
 }
 
 .b-logo {
+    margin: 22px auto 12px;
+
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 
     width: 175px;
     height: 51px;
-
-    margin: 22px auto 12px;
 }
 
-.b-logo img {
+.b-logo>img {
     width: 175px;
 }
 
@@ -65,12 +64,12 @@
 
 .facebook-login {
     margin: 8px 40px;
+
 }
 
 .facebook-login-btn {
     border: none;
     border-radius: 3px;
-
     padding: 5px 9px;
 
     width: 267.78px;
@@ -80,6 +79,7 @@
 
     background-color: #0095f6;
     cursor: pointer;
+
 }
 
 .facebook-login-btn>i {
@@ -114,19 +114,19 @@
 
 .input-group {
     display: flex;
+    margin: 0px 40px 6px;
+
     border: 1px solid #dbdbdb;
     border-radius: 3px;
 
     width: 267.78px;
     height: 38.21px;
-    margin: 8px 40px;
 
     background-color: #fafafa;
 }
 
 .input-data {
     position: relative;
-
     width: 100%;
 }
 
@@ -136,12 +136,11 @@
     left: 8px;
 
     color: #8e8e8e;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .input-data input {
     padding: 9px 0px 7px 8px;
-    
     border: none;
     outline: none;
 
@@ -157,11 +156,11 @@
     align-items: center;
 }
 
-.input-msg > i {
+.input-msg>i {
     font-size: 20px;
     margin: 0px 8px;
 
-    color: rgb(255, 97, 97);
+    color: rgb(255, 97, 97)
 }
 
 .password-visible {
@@ -174,7 +173,7 @@
     font-weight: 500;
     color: #262626;
     width: 100%;
-    max-width: 85px;
+    max-width: 90px;
     cursor: pointer;
 }
 
@@ -182,14 +181,13 @@
     margin: 8px 40px;
     border: none;
     border-radius: 3px;
-    
     padding: 5px 9px;
-    
+
     width: 267.78px;
     height: 30px;
-    
+
     color: white;
-    
+
     background-color: #0095f6;
     cursor: pointer;
 }
@@ -199,8 +197,7 @@
     margin: 15px;
 }
 
-.item-box .item-group:nth-of-type(2)>a {
-    font-size: 14px;
+.item-box .item-group:nth-of-type(2) a {
     color: #0095f6;
 }
 
