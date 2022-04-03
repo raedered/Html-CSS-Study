@@ -22,26 +22,28 @@
 
   </div>
   <script>
-    const plus = doucument.querySelector('.plus');
-    let flag = true;
+  const plus = document.querySelector('.plus');
+  let flag = true;
 
-    plus.onclick = () => {
-      if(flag == true){
-        addContents();
-        flag = false;
-      }else {
-        removeContents();
-        flag = true;
-      }
+  plus.onclick = () => {
+    if(flag == true){
+      addContents();
+      flag = false;
+    }else{
+      removeContents();
+      flag = true;
     }
 
-    function removeContents() {
-      const info = doucument.querySelector('#info');
-      const p = info.querySelector('p');
-      const img = info.querySelector('img');
-      info.removeChild(p);
-      info.removeChild(img);
-    }
+  }
+
+  function removeContents() {
+    const info = document.querySelector('#info');
+    const p = info.querySelector('p');
+    const img = info.querySelector('img');
+
+    info.removeChild(p);
+    info.removeChild(img);
+  }
 
     function addContents() {
       var newP = document.createElement("p");
